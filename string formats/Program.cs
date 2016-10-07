@@ -10,7 +10,10 @@ namespace string_formats
     {
         static void Main(string[] args)
         {
-            //Övning1   
+            //Övning1
+            DateTime dt = DateTime.Today;
+            Console.WriteLine(dt.ToString("yyyy MM dd"));
+
         }
     }
 }
